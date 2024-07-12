@@ -1,0 +1,452 @@
+@font-face
+{
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/Proxima Nova Bold.otf");
+}
+@font-face 
+{
+  font-family: "Proxima Nova Light";
+  src: url("../fonts/Proxima Nova Light.otf");
+
+}
+@font-face 
+{
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/Proxima Nova Regular.otf");
+ 
+}
+@font-face 
+{
+  font-family: "Proxima Nova Semibold";
+  src: url("../fonts/Proxima Nova Semibold.otf");
+}
+@font-face 
+{
+  font-family: "Proxima Nova Thin";
+  src: url("../fonts/Proxima Nova Thin.otf");
+}
+@font-face 
+{
+  font-family: "Supermolot Light Italic";
+  src: url("../fonts/Supermolot Light Italic.otf");
+}
+@font-face 
+{
+  font-family: "Supermolot Bold";
+  src: url("../fonts/Supermolot Bold.otf");
+ 
+}
+@font-face 
+{
+  font-family: "Supermolot Bold Italic";
+  src: url("../fonts/Supermolot Bold Italic.otf");
+}
+@font-face 
+{
+  font-family: "Supermolot Black";
+  src: url("../fonts/Supermolot Black.otf");
+}
+@font-face
+{
+  font-family: "Supermolot Black Italic";
+  src: url("../fonts/Supermolot Black Italic.otf");
+}
+@font-face
+{
+  font-family: "Proxima Nova Bold";
+  src: url("../fonts/Proxima Nova Bold.otf");
+}
+@font-face
+{
+  font-family: "Proxima Nova Light";
+  src: url("../fonts/Proxima Nova Light.otf");
+}
+@font-face
+{
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/Proxima Nova Regular.otf");
+}
+@font-face
+{
+  font-family: "Proxima Nova Semibold";
+  src: url("../fonts/Proxima Nova Semibold.otf");
+}
+@font-face
+{
+  font-family: "Proxima Nova Thin";
+  src: url("../fonts/Proxima Nova Thin.otf");
+}
+
+
+/*==================================================================================*/
+body
+{
+  background: #2980b9;
+}
+.container-fluid
+{
+  display: flex;
+  margin: 43px auto;
+  width: 960px;
+  max-width: 100%;
+  height: auto;  
+}
+.navigation
+{
+  width: 180px;
+  max-width: 100%;
+  min-height: 1080px;
+  height: auto;  
+}
+.logo
+{
+  width: 180px;
+  max-width: 100%;;
+  height: 90px;
+  background-color: #2ecc71;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFFFFF;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+.logo:hover
+{
+    color: #2ecc71;
+    background-color: #FFFFFF;
+}
+.text
+{
+    margin-top: 15px;   
+}
+.text-up
+{
+    font-family: "Supermolot";
+    line-height: 24px;
+    font-size: 33px;
+}
+.text-down
+{
+    font-family: "Supermolot Bold";
+    line-height: 34px;
+    font-size: 41px;
+}
+.nav
+{
+  width: 180px;
+  max-width: 100%;
+  height: 990px;
+  background-color: #34495e;
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.nav li
+{
+  display: inline-block;
+  transition: 0.7s;
+  width: 180px;
+  margin-top: 20px;
+}
+.nav li a
+{
+  padding: 10px 10px;
+  font-family: "Proxima Nova Regular";
+  font-weight: 500;
+  display: inline-block;
+  color: #95a5a6;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.7s;
+  font-size: 14px;
+}
+.nav li:hover
+{
+  background-color: #243342;
+}
+.bottom
+{
+  height: 50px;
+  margin-top: 350%;
+}
+.bottom .name
+{
+  font-family: "Proxima Nova Regular";
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+.bottom .logout
+{
+  background-color: #34495e;
+  border: none;
+  cursor: pointer;
+  margin-left: 30%;
+  width: 60px;
+  text-align: center;
+}
+.bottom .logout .text
+{
+  text-decoration: none;
+  color: #2ecc71;
+  font-family: "Proxima Nova Regular";
+  font-size: 16px;
+  border-bottom: 1px solid #328465;
+}
+.auth
+{
+  margin-left: 10px;
+}
+.container
+{
+  width: 780px;
+  max-width: 100%;
+  height: auto;  
+  background-color: #ecf0f1;
+}
+.title
+{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.title .cat_2
+{
+  margin-top: 20px;
+}
+.title .span_1
+{
+  font-family: "Proxima Nova Light";
+  font-size: 48px;
+  color: #34495e;  
+}
+.title .span_2
+{
+  font-family: "Proxima Nova Semibold";
+  font-size: 16px;
+  color: #2c3e50;
+}
+.title .span_3
+{
+  cursor: pointer;
+  font-family: "Supermolot Light";
+  font-size: 14px;
+  color: #02873a;
+  border-bottom: 1px solid #02873a;
+}
+.content_1
+{
+  border-radius: 5px;
+  width: 740px;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  background-color: #FFFFFF;
+  border: 1px solid #dee1e2; 
+}
+.content_1 .strong_1
+{
+  display: flex;
+  border-bottom: 1px solid #dee1e2;
+}
+.content_1 .strong_1 .block_1 p
+{
+  font-family: "Proxima Nova Bold";
+  font-size: 14px;
+  color: #95a5a6;
+}
+.content_1 .strong_1 .block_2 p
+{
+  font-family: "Proxima Nova Bold";
+  font-size: 14px;
+  color: #95a5a6;
+}
+.content_1 .strong_1 .block_1 
+{
+  margin-left: 20px;
+  width: 250px;
+  max-width: 100%;   
+}
+.content_1 .strong_1 .block_2 
+{
+  margin-left: 20px;
+  width: 290px;
+  max-width: 100%; 
+}
+.content_1 .strong_2
+{
+  display: flex;
+  border-top: 1px solid #dee1e2;
+  border-bottom: 1px solid #dee1e2;
+}
+.content_1 .strong_2:hover
+{
+  cursor: pointer;
+  border-left: 4px solid #8e44ad;
+  background-color: #f6f8fc;
+}
+.content_1 .strong_2 .block_1
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 290px;
+  max-width: 100%;
+}
+.content_1 .strong_2 .block_1 span
+{
+  margin-left: 10px;
+}
+.content_1 .strong_2 .block_2
+{
+  margin-left: 20px;
+  width: 290px;
+  max-width: 100%;
+}
+.content_1 .strong_2 .block_3
+{
+  margin-top: 15px;
+  text-align: center;
+  width: 120px;
+  max-width: 100%;
+}
+.content_1 .strong_2 .block_1 p
+{
+  color: #2c3e50;
+  font-size: 16px;
+  font-family: "Proxima Nova Semibold";  
+}
+.content_1 .strong_2 .block_2 p
+{
+  font-family: "Proxima Nova Regular";
+  font-size: 16px;
+  color: #636363;
+}
+.content_1 .strong_2 .block_3 span
+{
+  font-size: 14px;
+  font-family: "Proxima Nova Semibold";
+  color: #8e44ad;
+  border-bottom: 1px solid #e6daec;  
+}
+.content_1 .strong_2 .block_3 a
+{
+  text-decoration: none;
+  display: inline-block;  
+}
+.content_1 .strong_3
+{
+  display: flex;
+  border-top: 1px solid #dee1e2;
+  border-bottom: 1px solid #dee1e2;
+}
+.content_1 .strong_3:hover
+{
+  cursor: pointer;
+  border-left: 4px solid #8e44ad;
+  background-color: #f6f8fc;
+}
+.content_1 .strong_3 .block_1
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 300px;
+  max-width: 100%;
+}
+.content_1 .strong_3 .block_1 span
+{
+  margin-left: 10px;
+}
+.content_1 .strong_3 .block_2
+{
+  margin-left: 20px;
+  width: 180px;
+  max-width: 100%;
+}
+.content_1 .strong_3 .block_3
+{
+  margin-top: 16px;
+  text-align: center;
+  width: 120px;
+  max-width: 100%;
+}
+.content_1 .strong_3 .block_4
+{
+  margin-top: 15px;
+  text-align: center;
+  width: 120px;
+  max-width: 100%;
+}
+.content_1 .strong_3 .block_1 p
+{
+  color: #2c3e50;
+  font-size: 16px;
+  font-family: "Proxima Nova Semibold";  
+}
+.content_1 .strong_3 .block_2 p
+{
+  font-family: "Proxima Nova Regular";
+  font-size: 16px;
+  color: #636363;
+}
+.content_1 .strong_3 .block_3 button
+{
+  cursor: pointer;
+  background-color: transparent;
+  color: #ad0000;
+  border: none;
+  border-bottom: 1px solid #f3d4d4;
+  font-size: 14px;
+  font-family: "Proxima Nova Semibold";
+}
+.content_1 .strong_3 .block_4 span
+{
+  font-size: 14px;
+  font-family: "Proxima Nova Semibold";
+  color: #8e44ad;
+  border-bottom: 1px solid #e6daec;  
+}
+.content_1 .strong_3 .block_4 a
+{
+  text-decoration: none;
+  display: inline-block;  
+}
+.cat_2 
+{
+  margin-right: 20px;
+  float: right;
+}
+.cat_2 input
+{
+  width: 240px;
+  max-width: 100%;
+  height: 32px;
+  border:  1px solid #dee1e2;
+}
+.cat_2 .span_2
+{
+  float: right;
+  cursor: pointer;
+}
+.cat_2 .span_1
+{
+  font-family: "Proxima Nova Semibold";
+  font-size: 16px;
+  color: #2c3e50;
+}
+.cat_2 .span_2
+{
+  font-family: "Supermolot Light";
+  font-size: 14px;
+  color: #02873a;
+  border-bottom: 1px solid #02873a;
+  
+}
+.cat_2 button
+{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
